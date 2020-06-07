@@ -16,15 +16,15 @@ CapNhatSoLanXemTin($idTin);
 $tin = ChiTietTin($idTin);
 $row_tin = mysqli_fetch_array($tin);
 ?>
-<h1 class="title"><?php echo $row_tin['TieuDe'] ?></h1>
+<h3 class="title"><?php echo $row_tin['TieuDe'] ?></h3>
 <div class="des">
 <?php echo $row_tin['TomTat'] ?></div>
-<div class="chitiet">
+<div class="chitiet" >
 <!--noi dung-->
   <table align="center" border="0" cellpadding="3" cellspacing="0">
   <tbody>
     <tr> <!-- src="upload/tintuc/<php echo $row_tin['urlHinh']?>" -->
-      <td><img alt="like-that" data-natural-="" src="<?php if (strpos($row_tin['urlHinh'], 'tintuc') == false) 
+      <td><img style='height: 100%; width: 100%; object-fit: contain' ; alt="like-that" data-natural-="" src="<?php if (strpos($row_tin['urlHinh'], 'tintuc') == false) 
 				{
     				echo 'upload/tintuc/';
 				}
@@ -38,8 +38,10 @@ $row_tin = mysqli_fetch_array($tin);
     </tr>
   </tbody>
 </table>
+<div class="chitiettin">
 <?php echo $row_tin['Content'] ?>
-<p class="right"><strong>Vũ Thảo</strong></p>
+</div>
+<p class="right"><strong>Tác giả</strong></p>
 <!--//noi dung-->
 </div>
 <div class="clear"></div>

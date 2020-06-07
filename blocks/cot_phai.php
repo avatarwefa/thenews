@@ -16,7 +16,7 @@ $idLT = 2;
 			?>
         	<div class="col1">
             	<div class="news">
-                <h3 class="title" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_mottin['idTin']?>"> <?php echo $row_mottin['TieuDe']?> </a></h3>
+                <h6 class="title" style="font-weight:600"  ><a href="index.php?p=chitiettin&idTin=<?php echo $row_mottin['idTin']?>"> <?php echo $row_mottin['TieuDe']?> </a></h6>
                   <img class="images_news" src="<?php if (strpos($row_mottin['urlHinh'], 'tintuc') == false) 
 				{
     				echo 'upload/tintuc/';
@@ -70,7 +70,7 @@ $idLT = 3;
 			?>
         	<div class="col1">
             	<div class="news">
-                <h3 class="title" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_mottin['idTin']?>"> <?php echo $row_mottin['TieuDe']?> </a></h3>
+                <h6 class="title" style="font-weight:600" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_mottin['idTin']?>"> <?php echo $row_mottin['TieuDe']?> </a></h6>
                   <img class="images_news" src="<?php if (strpos($row_mottin['urlHinh'], 'tintuc') == false) 
 				{
     				echo 'upload/tintuc/';
@@ -124,7 +124,7 @@ $idLT = 16;
 			?>
         	<div class="col1">
             	<div class="news">
-                <h3 class="title" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_mottin['idTin']?>"> <?php echo $row_mottin['TieuDe']?> </a></h3>
+                <h6 class="title" style="font-weight:600"  ><a href="index.php?p=chitiettin&idTin=<?php echo $row_mottin['idTin']?>"> <?php echo $row_mottin['TieuDe']?> </a></h3>
                   <img class="images_news" src="<?php if (strpos($row_mottin['urlHinh'], 'tintuc') == false) 
 				{
     				echo 'upload/tintuc/';

@@ -4,7 +4,8 @@
 		$conn  	= myConnect();
 		$qr 	= "
 			SELECT * FROM tin 
-			ORDER BY idTin DESC
+			WHERE TinNoiBat=1
+			ORDER BY idTin DESC 
 			LIMIT 0,1
 		";
 		
@@ -17,6 +18,7 @@
 		$conn  	= myConnect();
 		$qr 	= "
 			SELECT * FROM tin 
+			WHERE TinNoiBat=1
 			ORDER BY idTin DESC
 			LIMIT 1,6
 		";

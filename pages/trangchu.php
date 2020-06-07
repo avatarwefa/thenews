@@ -26,7 +26,7 @@
 					$tintrai = TinMoi_BenTrai($idTL);
 					$row_tintrai = mysqli_fetch_array($tintrai);
 					?>
-                    <h3 class="title" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_tintrai['idTin'] ?>"><?php echo $row_tintrai['TieuDe'] ?> </a></h3>
+                    <h6 class="title" style="font-weight : 600" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_tintrai['idTin'] ?>"><?php echo $row_tintrai['TieuDe'] ?> </a></h6>
                     <img class="images_news" src="<?php if (strpos($row_tintrai['urlHinh'], 'tintuc') == false) 
 				{
     				echo 'upload/tintuc/';

@@ -46,7 +46,7 @@
 		
 		";
 		echo mysqli_query($conn, $qr);
-		//header("location:listTin.php");
+		header("location:listTin.php");
 	}
 
 ?>

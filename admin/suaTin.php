@@ -1,7 +1,7 @@
 <?php
 	ob_start();
 	session_start();
-	echo $_SESSION["idGroup"];
+ $_SESSION["idGroup"];
 	if(!isset($_SESSION["idUser"]) || $_SESSION["idGroup"] != 1){
 		header("location:../index.php");
 	}
@@ -31,7 +31,7 @@
 		$AnHien 	= $_POST["AnHien"];
 			settype($AnHien, "int");
 		$conn 		= myConnect();
-		echo $qr 		= "UPDATE tin SET
+		$qr 		= "UPDATE tin SET
 						TieuDe = '$TieuDe',
 						TieuDe_KhongDau = '$TieuDe_KhongDau',
 						TomTat = '$TomTat',
@@ -44,8 +44,7 @@
 						WHERE idTin = '$idTin'
 		";
 		mysqli_query($conn, $qr);
-		header("location:listTin.php");
-				
+		header("location:listTin.php");	
 	}
 ?>
 
