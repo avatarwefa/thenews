@@ -135,7 +135,7 @@ if (isset($_POST["btnThoat"]))
    	<!--blocks/thongtindoanhnghiep.php-->
    	<?php require "blocks/thongtindoanhnghiep.php"; ?>
     </div>
-    <div class="clear"></div>
+    <div class="clear "> </div>
     <div id="footer">
     	<!--blocks/footer.php-->
         <?php require "blocks/footer.php"; ?>

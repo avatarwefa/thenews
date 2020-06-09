@@ -76,6 +76,8 @@
 		$row = mysqli_fetch_array($loaitin);
 		return $row['Ten'];
 	}
+
+
 	
 	function QuangCao($vitri)
 	{
@@ -188,6 +190,16 @@
 				";
 		return mysqli_query($conn,$qr);
 	}
+
+	function viewTacGia($idUser)
+	{
+		$conn = myConnect();
+		$qr = "
+		select * from users
+		where users.idUser = $idUser
+				";
+		return mysqli_query($conn,$qr);
+	}
 	
 	function CapNhatSoLanXemTin($idTin){
 		$conn	= myConnect();
@@ -209,5 +221,16 @@
 		return mysqli_query($conn, $qr);
 	}
 	
+	function viewComment($idTin)
+	{
+		$conn	= myConnect();
+		$qr 	= "
+			select * from comment
+			where comment.idTin=$idTin
+			order by datetime desc
+		";
+		$result = mysqli_query($conn, $qr);
+		return $result;
+	}
 	
 ?>
