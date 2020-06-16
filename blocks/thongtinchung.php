@@ -2,7 +2,7 @@
              <div class="left">
                 
              </div>
-                          <a href="http://localhost/thenews.vn" class="txt_24h left" style="font-family:Arial, Helvetica, sans-serif;color:#900">The News</a>
+                          <a href="http://localhost/thenews.vn" class="txt_24h left" style="font-family:Arial, Helvetica, sans-serif;color:#E86826">The News</a>
                           <a href="#" class="img_rss left"></a>
              <div class="block_search_web left">
                 <form action="" method="get" target="_blank" id="search">

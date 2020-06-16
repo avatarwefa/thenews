@@ -21,7 +21,7 @@
 			WHERE TinNoiBat=1
 			ORDER BY idTin DESC
 			LIMIT 1,6
-		";
+		";	
 		
 		$result = mysqli_query($conn, $qr);
 		return $result;
