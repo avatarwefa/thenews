@@ -1,7 +1,7 @@
 <div class="thongtin-title">
 	<div class="right">
     
-          <a href="#"><span class="SetHomePage ico_respone_01">&nbsp;</span>Đặt VnExpress làm trang chủ</a>
+          <a href="#"><span class="SetHomePage ico_respone_01">&nbsp;</span>Đặt The News làm trang chủ</a>
           
           <a href="#"><span class="top">&nbsp;</span>Về đầu trang</a>
        

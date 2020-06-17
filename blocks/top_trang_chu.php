@@ -8,7 +8,7 @@
 			?>
          
         	<div id="slideleft-main">
-                <img src="<?php if (strpos($row_tinmoinhat_mottin['urlHinh'], 'tintuc') == false) 
+                <img style='height: 100%; width: 100%; object-fit: contain' src="<?php if (strpos($row_tinmoinhat_mottin['urlHinh'], 'tintuc') == false) 
 				{
     				echo 'upload/tintuc/';
 				}
@@ -16,7 +16,7 @@
 		
 					 
 						   ?>"  /><br />
-                <h2 class="title"><a href="index.php?p=chitiettin&idTin=<?php echo $row_tinmoinhat_mottin['idTin'] ?>"><?php echo $row_tinmoinhat_mottin['TieuDe']?></a> </h2>
+                <h5 class="title"><a href="index.php?p=chitiettin&idTin=<?php echo $row_tinmoinhat_mottin['idTin'] ?>"><?php echo $row_tinmoinhat_mottin['TieuDe']?></a> </h5>
                 <div class="des">
                     <?php echo $row_tinmoinhat_mottin['TomTat']?>
                 </div>

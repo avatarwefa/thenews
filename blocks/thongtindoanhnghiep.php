@@ -1,4 +1,4 @@
-<div class="thongtin-title">Thông tin doanh nghiệp</div>
+<div class="thongtin-title">Sự kiện trọng điểm của tháng : Tháng tự hào</div>
 <div class="thongtin-content">
 	<!-- it works the same with all jquery version from 1.x to 2.x -->
     <script type="text/javascript" src="jquery-slider-master/js/jquery-1.9.1.min.js"></script>
@@ -18,10 +18,10 @@
                 $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
                 $SlideDuration: 300,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
                 $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
-                $SlideWidth: 200,                                   //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                $SlideWidth: 150,                                   //[Optional] Width of every slide in pixels, default value is width of 'slides' container
                 //$SlideHeight: 150,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
-                $SlideSpacing: 3, 					                //[Optional] Space between each slide in pixels, default value is 0
-                $DisplayPieces: 4,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $SlideSpacing: 19, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 5,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
                 $ParkingPosition: 0,                              //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
                 $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
                 $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1

@@ -55,6 +55,18 @@ function DanhSachTin()
 	
 }
 
+function ChiTietTin($idTin){
+		$conn 	= myConnect();
+		$qr 	= "
+			SELECT * FROM tin
+			WHERE idTin = '$idTin'
+		";
+		$query 	= mysqli_query($conn, $qr);
+		$result = mysqli_fetch_array($query);
+		return $result;
+			
+	}
+
 	//Quan tri quang cao
 	function DanhSachQuangCao(){
 		$conn 	= myConnect();

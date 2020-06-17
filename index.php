@@ -55,14 +55,14 @@ if (isset($_POST["btnThoat"]))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>The News</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/layout.css" />
 </head>
 
 <body>
 <div id="wrap-vp">
-	<div id="header-vp">
-    	<div id="logo"><img style='height: 50%; width: 50%; object-fit: contain' src="images/logo_1.jpg" /> </div>
-    	 <div id="slogan"><img style='height: 100%; width: 100%; object-fit: contain' src="images/slogan.jpg" /> </div>
+	<div id="header-vp" class="slogan">
+    	
     
 </div>
 
@@ -135,20 +135,20 @@ if (isset($_POST["btnThoat"]))
    	<!--blocks/thongtindoanhnghiep.php-->
    	<?php require "blocks/thongtindoanhnghiep.php"; ?>
     </div>
-    <div class="clear"></div>
+    <div class="clear "> </div>
     <div id="footer">
     	<!--blocks/footer.php-->
         <?php require "blocks/footer.php"; ?>
         <div class="ft-bot">
-            <div class="bot1"><img src="images/logo.gif" /></div>
+            <div class ="bot1"><img style='height: 80%; width: 80%; object-fit: contain'  src="images/slogan_new.png" /></div>
             <div class="bot2">
                      <p>© <span>Copyright 2020 ,</span>  All rights reserved</p>
                      <p>® Thenews.vn giữ bản quyền nội dung trên website này.</p>
             </div>
             <div class="bot3">
                 
-                     <p><a href="http://fptad.net/qc/V/vnexpress/2014/07/">VnExpress tuyển dụng</a>   <a href="http://polyad.net/Polyad/Lien-he.htm">Liên hệ quảng cáo</a> / <a href="/contactus">Liên hệ Tòa soạn</a></p>
-                     <p><a href="http://vnexpress.net/contact.htm" target="_blank" style="color: #686E7A;font: 11px arial;padding: 0 4px;text-decoration: none;">Thông tin Tòa soạn: </a><span>0123.888.0123</span> (HN) - <span>0129.233.3555</span> (TP HCM)</p>
+                     <p><a href="#">The News tuyển dụng</a>   <a href="http://polyad.net/Polyad/Lien-he.htm">Liên hệ quảng cáo</a> / <a href="/contactus">Liên hệ Tòa soạn</a></p>
+                     <p><a href="#" target="_blank" style="color: #686E7A;font: 11px arial;padding: 0 4px;text-decoration: none;">Thông tin Tòa soạn: </a><span>0123.888.0123</span> (HN) - <span>0129.233.3555</span> (TP HCM)</p>
                   
             </div>
         </div>

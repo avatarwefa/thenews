@@ -32,7 +32,7 @@ Trang chủ >> <?php echo $row_bc["TenTL"]?> >> <?php echo $row_bc["Ten"]?>
         <div class="cat-content">
         	<div class="col0 col1">
             	<div class="news">
-                    <h3 class="title" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_tin['idTin'] ?>" ><?php echo $row_tin['TieuDe']?></a></h3>
+                    <h7 class="title" style="font-size:14px" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_tin['idTin'] ?>" ><?php echo $row_tin['TieuDe']?></a></h7>
                     <img class="images_news" src="<?php if (strpos($row_tin['urlHinh'], 'tintuc') == false) 
 				{
     				echo 'upload/tintuc/';

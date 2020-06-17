@@ -1,9 +1,9 @@
 <div class="box-cat">
-	<div class="cat">
-    	<div class="main-cat">
-        	<a href="#">Tin xem nhiều</a>
+	<div class="cat"> 
+    	<div class="main-cat" style='object-fit: contain'> Tin xem nhiều
+        	<a href="#"></a>
         </div>
-       
+
         <div class="clear"></div>
         <div class="cat-content">
         	
@@ -22,8 +22,8 @@
 					echo $row_tinxemnhieunhat['urlHinh']
 		
 					 
-						   ?>" ?>"  />
-                    <h3 class="title" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_tinxemnhieunhat['idTin'] ?>"><?php echo $row_tinxemnhieunhat['TieuDe'] ?></a><span class="hit"><?php echo $row_tinxemnhieunhat['SoLanXem'] ?></span></h3>
+						   ?>" ?>" 
+                    <h8 class="title" ><a href="index.php?p=chitiettin&idTin=<?php echo $row_tinxemnhieunhat['idTin'] ?>"><?php echo $row_tinxemnhieunhat['TieuDe'] ?></a><span class="hit"><?php echo $row_tinxemnhieunhat['SoLanXem'] ?></span></h8>
                     <div class="clear"></div>
 				</div>
             </div>
