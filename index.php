@@ -38,17 +38,34 @@ if (isset($_POST["btnLogin"]))
 	}
 }
 ?>
+<?php
+if (isset($_POST["btnManage"]))
+{
+	header("location:./admin/index.php");
+}
+?>
+
+
 
 <?php
 // Thoat
 if (isset($_POST["btnThoat"]))
 {
+	
 	unset($_SESSION["idUser"]);
 	unset($_SESSION["Username"]);
 	unset($_SESSION["HoTen"]);
 	unset($_SESSION["idGroup"]);
+	
 }
+
+	
+
 ?>
+
+
+
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

@@ -12,6 +12,17 @@
 	require "../lib/quantri.php";
 	
 ?>
+<?php
+if (isset($_POST["btnLogOut"]))
+{
+	echo $_SESSION["idGroup"];
+	unset($_SESSION["idUser"]);
+	unset($_SESSION["Username"]);
+	unset($_SESSION["HoTen"]);
+	unset($_SESSION["idGroup"]);
+	header("location:../index.php");
+}
+?>
 
 	<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -23,7 +34,7 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>FREE RESPONSIVE HORIZONTAL ADMIN</title>
+    <title>ADMIN</title>
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME STYLE  -->
@@ -43,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
 					
                     TRANG QUẢN TRỊ
 					
@@ -52,7 +63,9 @@
             </div>
 
             <div class="right-div">
-                <a href="#" class="btn btn-info pull-right">LOG ME OUT</a>
+                <form method="post" action="">
+					<input  type="submit" name="btnLogOut" id="btnLogOut" class="btn btn-info pull-right" value = "Log out">
+				</form>
             </div>
         </div>
     </div>
